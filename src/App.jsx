@@ -4,6 +4,7 @@ import ErrorPage from "./component/ErrorPage";
 import  LoginPage  from "./component/LoginPage";
 import  OrderPage  from "./component/OrderPage";
 
+
 function App() {
   return (
     <Routes>
@@ -12,6 +13,7 @@ function App() {
       <Route path="/*" element={<ErrorPage />} />
     </Routes>
   );
+
 }
 
 export default App;
